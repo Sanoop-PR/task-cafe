@@ -31,7 +31,7 @@ function MenuItems() {
   }
 
   return (
-    <main className="h-96 text-white">
+    <main className="min-h-96 text-white">
       <h1 className="text-3xl sm:text-5xl text-center font-bold [text-shadow:_4px_3px_0px_rgba(253,8,8,0.89)] max-sm:py-15 uppercase">{title}</h1>
       <section className="grid grid-cols-1 md:grid-cols-2 gap-10">
         {data && data ? (

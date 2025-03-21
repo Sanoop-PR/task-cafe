@@ -1,5 +1,5 @@
 import { useMutation, useQuery } from '@tanstack/react-query';
-import { IItem, IMenu } from '../lib/type';
+import { IItem } from '../lib/type';
 import axios from 'axios';
 import { baseUrl } from '../lib/baseUrl';
 import { useParams } from 'react-router';
